@@ -1,0 +1,41 @@
+* {
+  margin: 20px;
+  box-sizing: border-box;
+}
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1 {
+  text-align: center;
+}
+#menue {
+  display: flex;
+  justify-content: center;
+}
+ul > li {
+  list-style-type: none;
+  display: inline;
+  cursor: pointer;
+  border: 1px solid black;
+  padding: 2px 15px;
+}
+h2 {
+  text-align: center;
+}
+img {
+  float: left;
+}
+.item {
+  width: 46%;
+  float: left;
+  background-color: yellow;
+}
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* hidden class */
+.hidden {
+  display: none;
+}
